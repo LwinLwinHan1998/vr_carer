@@ -1,9 +1,9 @@
 <?php
-$hostname = "localhost";
-$port = "3306";
+$hostname = "megashop-do-user-14537762-0.b.db.ondigitalocean.com";
+$port = "25060";
 $dbname = "vr_carer";
-$username = "root";
-$password = "";
+$username = "doadmin";
+$password = "AVNS_GXwfrWR2c0tg20CnL2E";
 $pdo = new PDO(
     "mysql:host=$hostname;port=$port;dbname=$dbname",
     $username,
